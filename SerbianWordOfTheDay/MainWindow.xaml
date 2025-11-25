@@ -1,0 +1,42 @@
+﻿<Window x:Class="SerbianWordOfTheDay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Serbian Word"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="#00000000"
+        Topmost="True"
+        ShowInTaskbar="False"
+        SizeToContent="WidthAndHeight"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseRightButtonUp="Window_MouseRightButtonUp"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
+
+    <Border CornerRadius="8"
+            Padding="8"
+            BorderThickness="1"
+            BorderBrush="#55FFFFFF"
+            Background="#AA111111">
+        <StackPanel>
+            <!-- Сербское слово -->
+            <TextBlock x:Name="SerbianText"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       Margin="0,0,0,2" />
+
+            <!-- Русский перевод -->
+            <TextBlock x:Name="RussianText"
+                       FontSize="12"
+                       Foreground="#FFDDDDDD"
+                       Margin="0,0,0,1" />
+
+            <!-- Английский перевод -->
+            <TextBlock x:Name="EnglishText"
+                       FontSize="12"
+                       Foreground="#AAAAAA" />
+        </StackPanel>
+    </Border>
+</Window>
