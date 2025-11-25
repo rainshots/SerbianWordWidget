@@ -13,5 +13,9 @@ Widget for learning new words.
 Если будут идеи/предложения, что улучшить, пишите в тг: @KonstantinB93
 
 <img width="437" height="260" alt="image" src="https://github.com/user-attachments/assets/cb10c3a3-ca62-4ffc-80b9-5a3f00cab7a6" />
+<img width="605" height="399" alt="image" src="https://github.com/user-attachments/assets/303a7d9a-2b4d-43f5-98f3-cd156833c482" />
+<img width="487" height="377" alt="image" src="https://github.com/user-attachments/assets/f7fe4c29-6ec7-4131-b847-864aa8025b7a" />
+
+
 
 
